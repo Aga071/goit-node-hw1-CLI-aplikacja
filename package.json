@@ -1,7 +1,7 @@
 {
   "name": "goit-node-hw1-cli-aplikacja",
   "version": "1.0.0",
-  "description": "",
+  "description": "1. To display a list of all contacts, use the command:",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -17,5 +17,7 @@
   },
   "devDependencies": {
     "nodemon": "^3.0.2"
-  }
+  },
+  "type": "module",
+  "keywords": []
 }

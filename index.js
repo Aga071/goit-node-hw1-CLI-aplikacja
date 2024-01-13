@@ -1,12 +1,12 @@
-const { program } = require("commander");
-require("colors");
+import { program } from "commander";
+import "colors";
 
-const {
+import {
   listContacts,
   getContactById,
   removeContact,
   addContact,
-} = require("./contacts.js");
+} from "./contacts.js";
 
 program
   .option("-a, --action <type>", "choose action")
